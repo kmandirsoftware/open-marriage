@@ -10,15 +10,15 @@
 <div class="l-wrap">
     <h1 class="ann">
         <span class="ann-secondary">Wedding</span>
-        <span class="ann-primary">October 5, 2013</span>
-        <span class="ann-secondary">Easton, MD</span>
+        <span class="ann-primary">Sept 1st, 2018</span>
+        <span class="ann-secondary">Denver, Colorado</span>
     </h1>
 
     <ol class="cal l-contain l-grid">
         {{#day "Friday 4"}}
             {{addDayEvent "evening-before"
-                start = "8pm"
-                end   = "1am"
+                start = "5pm"
+                end   = "12pm"
                 desc  = "Drinks @ Washington St. Pub & Oyster Bar"}}
 
             {{> day/header}}
@@ -27,12 +27,12 @@
 
         {{#day "Saturday 5" primary=true}}
             {{addDayEvent "ceremony"
-                start = "4:30pm"
+                start = "5:00pm"
                 desc  = "Wedding Ceremony"}}
 
             {{addDayEvent "ceremony"
-                start = "5pm"
-                end   = "10pm"
+                start = "7pm"
+                end   = "12pm"
                 desc  = "Reception"}}
 
             {{> day/header}}
